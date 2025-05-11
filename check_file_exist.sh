@@ -8,8 +8,6 @@ if [ -f "$filename" ]; then
 else
     echo "Le fichier '$filename' n'existe pas."
 fi
-
-
 #"read filename" il Demande à l’utilisateur d’entrer le nom du fichier.
 
 #[ -f "$filename" ] Vérifie si le fichier existe (-f signifie que c'est un fichier ordinaire).
